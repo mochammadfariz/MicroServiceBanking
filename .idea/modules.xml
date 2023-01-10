@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/digital-banking-client/DigitalBankingClient/DigitalBankingClient.iml" filepath="$PROJECT_DIR$/digital-banking-client/DigitalBankingClient/DigitalBankingClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-banking-customer-service/DigitalBankingCustomerService/DigitalBankingCustomerService.iml" filepath="$PROJECT_DIR$/digital-banking-customer-service/DigitalBankingCustomerService/DigitalBankingCustomerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/digital-banking-discovery-service/DigitalBankingDiscoveryService/DigitalBankingDiscoveryService.iml" filepath="$PROJECT_DIR$/digital-banking-discovery-service/DigitalBankingDiscoveryService/DigitalBankingDiscoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/digitalbanking.iml" filepath="$PROJECT_DIR$/.idea/digitalbanking.iml" />
+    </modules>
+  </component>
+</project>

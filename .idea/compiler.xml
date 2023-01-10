@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="DigitalBankingDiscoveryService" />
+        <module name="digitalbanking" />
+        <module name="DigitalBankingCustomerService" />
+        <module name="DigitalBankingClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="digitalbanking" target="19" />
+      <module name="DigitalBankingClient" target="18" />
+      <module name="DigitalBankingCustomerService" target="18" />
+      <module name="DigitalBankingDiscoveryService" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DigitalBankingClient" options="-parameters" />
+      <module name="DigitalBankingCustomerService" options="-parameters" />
+      <module name="DigitalBankingDiscoveryService" options="-parameters" />
+    </option>
+  </component>
+</project>
